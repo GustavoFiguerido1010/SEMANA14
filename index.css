@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+}
+#carouselExampleSlidesOnly{
+    text-align: center;
+}
+.navbar {
+    background-color:#6c6c6d !important ;
+}
+.navbar-nav .nav-link {
+    color: white; 
+    margin-right: 80px;
+    
+}
+.container-fluid .navbar-brand{
+    color: white;
+    margin-right: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.left {
+    flex: 1; /* Permite que el elemento ocupe todo el espacio disponible */
+}
+
+.right {
+    flex: 1; /* Permite que el elemento ocupe todo el espacio disponible */
+    text-align: right; /* Alinea el contenido a la derecha dentro del elemento */
+}
+
+.lista ul {
+    padding: 0;
+    margin-right: 20px;
+    
+}
+
+.lista li {
+    margin: 0px;
+    padding: 7px;
+    border: 1px solid #ccc; /* Establece el color y el grosor del borde */
+    border-radius: 5px; 
+    margin-bottom: 0px; 
+    width: 200px;
+}
+
+.row {
+    background-color: rgba(241, 241, 241, 0.828);
+}
+
+.btn {
+    color: white;
+    padding: 0;
+}
+
+
+
